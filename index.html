@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gem Quarry — Block Puzzle</title>
+<meta name="description" content="Gem Quarry: a relaxing pixel-art block puzzle. Drag, drop, clear lines and collect gems. Free on Android.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg1:#3e2c7a; --bg2:#160f30; --fg:#f7f3ff; --muted:#b7aedb; --gold:#ffd447; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; color:var(--fg); background:linear-gradient(var(--bg1),var(--bg2)) fixed;
+         font:17px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 64px; text-align:center; }
+  img.icon { width:128px; height:128px; border-radius:28px; image-rendering:pixelated; box-shadow:0 8px 0 #0b0818; }
+  h1 { font-size:40px; margin:20px 0 0; letter-spacing:1px; }
+  h1 span { color:var(--gold); }
+  p.tag { color:var(--muted); margin-top:4px; }
+  img.banner { width:100%; border-radius:16px; margin:24px 0; image-rendering:pixelated; }
+  .btn { display:inline-block; background:#3fc65b; color:#fff; font-weight:700; padding:14px 26px; border-radius:10px;
+         text-decoration:none; border:3px solid #0b0818; box-shadow:0 6px 0 #1f7d38; }
+  ul { text-align:left; display:inline-block; }
+  footer { margin-top:40px; color:var(--muted); font-size:14px; }
+  footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="Gem Quarry icon">
+  <h1>GEM <span>QUARRY</span></h1>
+  <p class="tag">Relaxing pixel-art block puzzle · Puzzle de blocs relaxant en pixel art</p>
+  <img class="banner" src="feature.png" alt="Gem Quarry">
+  <p><span class="btn" id="play">Coming soon on Google Play · Bientôt sur Google Play</span></p>
+  <ul>
+    <li>Drag, drop &amp; clear lines — chain epic combos</li>
+    <li>Adventure mode: collect gems in endless levels</li>
+    <li>No timer, play offline, daily rewards</li>
+  </ul>
+  <footer>
+    <a href="privacy.html">Privacy policy / Confidentialité</a> · © 2026 Mathieu Lepron
+  </footer>
+</main>
+</body>
+</html>
